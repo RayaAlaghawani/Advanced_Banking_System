@@ -6,7 +6,7 @@ namespace App\Transactions\Handlers;
 
 use App\Models\Transaction;
 
-class BalanceCheckHandler
+class BalanceCheckHandler extends BaseHandler
 {
 
 protected function check(Transaction $transaction){
